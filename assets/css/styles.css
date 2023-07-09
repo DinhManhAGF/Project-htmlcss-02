@@ -475,3 +475,66 @@ a {
     font-weight: 400;
     line-height: 1.54;
 }
+
+/* ========== Testimonial ========== */
+.features {
+    margin-top: 200px;
+}
+
+.features .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .img-block {
+    display: flex;
+    width: 570px;
+    height: 438px;
+}
+
+.features .img-block .image {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .img-bl {
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.features .img-tr {
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.features .info {
+    margin-top: 58px;
+    width: 470px;
+    height: 322px;
+}
+
+.features .sub-title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+}
+
+.features .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.features .btn {
+    margin-top: 32px;
+    width: 137px;
+    border-radius: 26px;
+    background: #ffb900;
+}
