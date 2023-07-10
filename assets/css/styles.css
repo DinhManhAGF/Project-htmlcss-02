@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -293,7 +298,8 @@ a {
 
 /* ========== Courses ========== */
 .courses {
-    margin-top: 200px;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .courses-top .sub-header {
@@ -486,7 +492,8 @@ a {
 
 /* ========== Testimonial ========== */
 .features {
-    margin-top: 200px;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .features .content {
@@ -591,7 +598,8 @@ a {
 
 /* ========== Blog ========== */
 .blog {
-    margin-top: 200px;
+    margin-top: 100px;
+    padding-top: 100px;
     background: #fffcf4;
 }
 
